@@ -1,0 +1,33 @@
+.navigationbarDiv{
+    background-color: rgb(35, 118, 177);  
+    display: flex;
+    color: blanchedalmond;
+    justify-content: flex-end;
+    top: 0; 
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 70px;
+}
+
+.navigationbarDiv.active{
+    background:linear-gradient(to right,rgb(14, 14, 23),rgb(29, 45, 74));
+}
+
+.navigationbarDiv>img{
+    position: absolute;
+    /* left: 40%; */
+    left: 0;
+    top:0;
+    margin: 10px;
+}
+
+.navigationbarDiv>h3{
+    margin: 22px 10px;
+    cursor: pointer;
+}
+
+.navigationbarDiv>*:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}

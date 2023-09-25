@@ -1,0 +1,51 @@
+.quizContainer{
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.quizDiv{
+    background-color: rgb(37, 34, 34);  
+    margin: 10px;
+    padding:1px 15px 30px 15px ;
+    border-radius: 10px;
+    border-radius: 5px;
+    border:1px solid black;
+    box-shadow: 2px 2px 15px 5px rgb(252, 252, 252);
+    color: blanchedalmond;
+    width: 70%;
+    margin-left: 15%;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.Timer{
+    background-color: rgb(10, 14, 13);
+    width: 20vw;
+    margin-left: 39%;
+    color: white;
+}
+
+.optionDiv>button{
+    width: 70%;
+    max-width: 95%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(73, 186, 238);
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(75, 166, 240),rgb(14, 39, 179));
+}
+
+.optionDiv>button:hover{
+    transition: 0.1s;
+    transform: scale(1.03);
+    background-color: rgb(151, 210, 238);
+    color: darkblue;
+    border: 2px solid white;
+}

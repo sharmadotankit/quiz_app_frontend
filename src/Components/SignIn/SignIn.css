@@ -1,0 +1,25 @@
+.containerDiv{  
+    padding: 0px 20px 40px 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    border:1px solid rgb(148, 148, 148);
+    box-shadow: 5px 5px 5px 5px rgb(175, 175, 175);
+    color: black;
+}
+
+
+.containerDiv:hover{
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px 5px rgb(182, 182, 182);
+    transform: scale(1.001);
+}
+
+.containerDiv .inputDiv{
+    width:90%;
+    padding: 5px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1em;
+}

@@ -1,0 +1,30 @@
+.SubjectTile{
+    background: linear-gradient(to right, rgb(14, 39, 179),rgb(75, 166, 240));
+    width: 150px;
+    height: 120px;
+    color: blanchedalmond;
+    margin: 10px;
+    font-family: algerian;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding: 15px;
+    
+}
+
+.SubjectTile:hover{
+    transition: 0.4s;
+    transform: scale(1.03);
+    color: blue;
+    background: linear-gradient(to right, rgb(195, 255, 195),rgb(89, 236, 255));
+    font-weight: bolder;
+}
+
+
+.SubjectHeader{
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+}
